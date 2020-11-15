@@ -27,6 +27,7 @@
         "phpstan/phpstan-phpunit": "^0.12",
         "overtrue/phplint": "^2.0",
         "chiron/coding-standard": "^3.0",
+        "chiron/container": "^3.5",
         "nyholm/psr7": "^1.3"
     },
     "scripts": {
