@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Chiron\Http\Test;
+namespace Chiron\RequestContext\Tests;
 
 use Closure;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 use Nyholm\Psr7\ServerRequest;
 use Chiron\Container\Container;
-use Chiron\Http\Request\Bag\ParameterBag;
+use Chiron\RequestContext\Bag\ParameterBag;
 use Psr\Http\Message\ServerRequestInterface;
 
 // TODO : ajouter les tests pour la partie "ArrayAccess" !!!

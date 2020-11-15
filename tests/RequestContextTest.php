@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Chiron\Http\Test;
+namespace Chiron\RequestContext\Tests;
 
 use Closure;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 use Nyholm\Psr7\ServerRequest;
 use Chiron\Container\Container;
-use Chiron\Http\Request\RequestContext;
-use Chiron\Http\Request\Bag\ServerBag;
-use Chiron\Http\Request\Bag\ParameterBag;
-use Chiron\Http\Request\Bag\HeaderBag;
-use Chiron\Http\Request\Bag\FileBag;
+use Chiron\RequestContext\RequestContext;
+use Chiron\RequestContext\Bag\ServerBag;
+use Chiron\RequestContext\Bag\ParameterBag;
+use Chiron\RequestContext\Bag\HeaderBag;
+use Chiron\RequestContext\Bag\FileBag;
 use Psr\Http\Message\ServerRequestInterface;
 use Nyholm\Psr7\UploadedFile;
 
