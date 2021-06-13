@@ -67,6 +67,8 @@ final class RequestContext implements SingletonInterface
      * @param ContainerInterface $container
      */
     // TODO : lui ajouter en paramétre une classe ProxiesConfig ou ProxyConfig ce qui permettra de récupérer les adresses IP ou plage d'ip qui sont "trusted" pour récupérer l'adresse ip et host/pot/scheme depuis les headers X-Forwarded-xxx, éventuellement au lieu de créer un fichier de config proxy.php.dist, on pourrait utiliser le fichier http.php.dist pour stocker ces infos, et utiliser un subset dans la classe de config pour récupérer que la partie proxy.
+    // TODO : utiliser directement un objet de type "Chiron\Container::class"
+    // TODO : récupérer un objet RequestScope::class dans le constructeur plutot qu'un container, et appeller la méthode ->getRequest()
     public function __construct(ContainerInterface $container)
     {
         $this->container = $container;

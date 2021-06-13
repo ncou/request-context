@@ -19,6 +19,8 @@ use Chiron\RequestContext\Bag\ParameterBag;
 use Chiron\RequestContext\Bag\HeaderBag;
 use Chiron\RequestContext\Bag\FileBag;
 
+// TODO : créer un répertoire Traits et ajouter cette classe dans ce répertoire plutot que de la laisser à la racine !!!!
+
 trait RequestBagTrait
 {
     /**
